@@ -33,7 +33,7 @@ OSV_API  = "https://api.osv.dev/v1/query"
 KEV_URL  = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 EDB_URL  = "https://gitlab.com/exploit-database/exploitdb/-/raw/main/files_exploits.csv"
 
-NVD_API_KEY = os.environ.get("NVD_API_KEY") or "01AEE5A4-704E-40BE-9805-AADDD3764C4A"
+NVD_API_KEY = os.environ.get("NVD_API_KEY") or "PASTE_YOUR_NEW_KEY_HERE"
 
 FINDINGS_DIR = Path("findings")
 SUCCESS_FILE = Path("success.txt")
